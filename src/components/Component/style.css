@@ -1,0 +1,51 @@
+.component {
+  border-radius: 3px;
+  height: 37px;
+  overflow: hidden;
+  position: relative;
+  width: 207px;
+}
+
+.component .CTA {
+  font-family: "Raleway", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  height: 19px;
+  left: 88px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.component.press {
+  background-color: #08002d;
+  border: 2px solid;
+  border-color: #ffffff;
+  box-shadow: 4px 4px 4px #3eb7d3;
+}
+
+.component.main {
+  background-color: #11d767;
+}
+
+.component.hocer {
+  background-color: #11d767;
+  box-shadow: 4px 4px 4px #3eb7d3;
+}
+
+.component.press .CTA {
+  color: #ffffff;
+  top: 7px;
+}
+
+.component.main .CTA {
+  color: #08002d;
+  top: 8px;
+}
+
+.component.hocer .CTA {
+  color: #08002d;
+  top: 8px;
+}
